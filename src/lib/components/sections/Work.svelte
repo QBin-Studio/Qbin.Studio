@@ -14,7 +14,7 @@
 		</div>
 		<div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-12">
 			<!-- svelte-ignore a11y_invalid_attribute -->
-			<a href="#" class="work-card group block">
+			<a href="/project" class="work-card group block">
 				<div
 					class="work-card-image bg-bg-secondary border-border relative mb-5 flex aspect-video items-center justify-center overflow-hidden rounded-lg border"
 				>
@@ -45,7 +45,7 @@
 				</div>
 			</a>
 			<!-- svelte-ignore a11y_invalid_attribute -->
-			<a href="#" class="work-card group block">
+			<a href="/project" class="work-card group block">
 				<div
 					class="work-card-image bg-bg-secondary border-border relative mb-5 flex aspect-video items-center justify-center overflow-hidden rounded-lg border"
 				>

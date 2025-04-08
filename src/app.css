@@ -62,11 +62,7 @@
 
 /* Body Background - with grid */
 body {
-	background-color: var(--color-bg-primary);
-	color: var(--color-text-primary);
-	font-family: 'Inter', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	@apply bg-bg-primary text-text-primary font-sans antialiased;
 	background-image:
 		radial-gradient(circle at 15% 25%, rgba(20, 184, 166, 0.03), transparent 45%),
 		radial-gradient(circle at 85% 75%, rgba(6, 182, 212, 0.02), transparent 50%),
@@ -100,20 +96,10 @@ body {
 
 /* Card Base & Hover Effects */
 .card-base {
-	transition:
-		transform 0.3s ease,
-		border-color 0.3s ease,
-		box-shadow 0.3s ease;
-	border: 1px solid var(--color-border);
-	background-color: var(--color-bg-secondary); /* Default card bg */
-	border-radius: 0.75rem; /* lg */
-	box-shadow:
-		0 1px 3px rgba(0, 0, 0, 0.1),
-		0 1px 2px rgba(0, 0, 0, 0.06);
+	@apply border-border bg-bg-secondary rounded-lg border shadow-md transition-all duration-300 ease-in-out;
 }
 .card-base:hover {
-	transform: translateY(-6px);
-	border-color: var(--color-border-highlight);
+	@apply border-border-highlight -translate-y-1.5 shadow-xl;
 	box-shadow:
 		0 10px 25px -5px rgba(0, 0, 0, 0.4),
 		0 8px 10px -6px rgba(0, 0, 0, 0.4);
@@ -182,7 +168,7 @@ body {
 
 /* Mobile Nav Link Helper */
 .nav-link-mobile {
-	@apply text-brand-secondary hover:text-brand-primary hover:bg-border block rounded-md px-3 py-2 text-base font-medium transition-colors duration-150;
+	@apply text-brand-secondary hover:bg-border hover:text-brand-primary block rounded-md px-3 py-2 text-base font-medium transition-colors duration-150;
 }
 
 /* Button Styles */
@@ -201,6 +187,9 @@ body {
 }
 
 /* Button Size Classes */
+.btn-sm {
+	@apply px-3 py-1.5 text-xs;
+}
 .btn-size-hero {
 	@apply px-8 py-3 text-base;
 }
@@ -221,4 +210,50 @@ body {
 }
 .process-step-card h3 {
 	@apply text-brand-primary mb-0 text-lg font-semibold; /* Adjusted size */
+}
+
+.tag-badge {
+	@apply bg-border/60 text-brand-secondary hover:bg-border-highlight hover:text-brand-primary mr-2 mb-2 inline-block rounded-full px-2.5 py-1 text-xs font-medium transition-colors duration-150;
+}
+
+.prose {
+	@apply text-text-secondary leading-relaxed;
+}
+.prose h3 {
+	@apply text-text-primary not-prose mb-3 text-xl font-semibold;
+}
+.prose p {
+	@apply mb-6;
+}
+.prose ul {
+	@apply mb-6 list-disc space-y-2 pl-5;
+}
+.prose li::marker {
+	@apply text-border-highlight;
+}
+.prose strong {
+	@apply text-text-primary/90 font-semibold;
+}
+.prose figure {
+	@apply my-10;
+}
+.prose figcaption {
+	@apply text-text-secondary/80 mt-2 text-center text-sm;
+}
+.prose img {
+	@apply border-border w-full rounded-lg border shadow-md;
+}
+.prose a {
+	@apply text-brand-accent-primary hover:text-brand-accent-secondary decoration-brand-secondary/50 hover:decoration-brand-accent-secondary/70 underline underline-offset-2 transition-colors duration-150;
+}
+.prose-lg p {
+	@apply text-lg;
+}
+.prose-lg ul {
+	@apply text-lg;
+}
+@utility not-prose {
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
 }

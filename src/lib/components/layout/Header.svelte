@@ -10,9 +10,8 @@
 <header class="bg-bg-primary/80 border-border/70 sticky top-0 z-50 border-b backdrop-blur-xl">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-between">
-			<!-- svelte-ignore a11y_invalid_attribute -->
 			<a
-				href="#"
+				href="/"
 				class="text-brand-primary flex items-center gap-2 text-2xl font-bold tracking-tight"
 			>
 				<svg
