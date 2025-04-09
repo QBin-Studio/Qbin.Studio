@@ -3,7 +3,7 @@
 
 	const navbarLinks = [
 		{ href: '/#services', label: 'Services' },
-		{ href: '/#work', label: 'Work' },
+		{ href: '/projects', label: 'Projects' },
 		{ href: '/#tech', label: 'Tech' },
 		{ href: '/#pricing', label: 'Pricing' },
 		{ href: '/#about', label: 'About' },
