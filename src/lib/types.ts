@@ -31,3 +31,13 @@ export interface Review {
 	author: string;
 	title: string; // e.g., "CEO, Company Name"
 }
+
+export interface Project {
+	id: number | string;
+	slug: string;
+	title: string;
+	category: string;
+	imageUrl: string | null;
+	shortDescription: string;
+	tags?: string[];
+}

@@ -84,14 +84,7 @@ body {
 
 /* Text Gradient */
 .gradient-text-dynamic {
-	background: linear-gradient(
-		90deg,
-		var(--color-brand-accent-primary),
-		var(--color-brand-accent-secondary)
-	);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
+	@apply from-brand-accent-primary to-brand-accent-secondary bg-gradient-to-r bg-clip-text text-transparent;
 }
 
 /* Card Base & Hover Effects */

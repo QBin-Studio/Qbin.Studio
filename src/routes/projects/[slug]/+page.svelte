@@ -95,8 +95,8 @@
 										/>
 									</svg>
 									<span
-										><strong class="text-brand-primary/90 block font-medium">Team:</strong> M. Akmal (Lead
-										Dev), H. Nazmul (Lead Dev), A. Kim (Frontend)</span
+										><strong class="text-brand-primary/90 block font-medium">Team:</strong> M. Akmal
+										(Lead Dev), H. Nazmul (Lead Dev), A. Kim (Frontend)</span
 									>
 								</li>
 							</ul>
@@ -260,7 +260,10 @@
 		</div>
 	</article>
 
-	<section id="contact" class="from-bg-secondary to-bg-primary bg-gradient-to-b border-border/30 border-t py-24">
+	<section
+		id="contact"
+		class="from-bg-secondary to-bg-primary border-border/30 border-t bg-gradient-to-b py-24"
+	>
 		<div class="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
 			<h2 class="text-brand-primary text-3xl font-extrabold tracking-tight sm:text-4xl">
 				Have a Similar Project?

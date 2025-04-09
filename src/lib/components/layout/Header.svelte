@@ -2,12 +2,12 @@
 	import { slide } from 'svelte/transition';
 
 	const navbarLinks = [
-		{ href: '#services', label: 'Services' },
-		{ href: '#work', label: 'Work' },
-		{ href: '#tech', label: 'Tech' },
-		{ href: '#pricing', label: 'Pricing' },
-		{ href: '#about', label: 'About' },
-		{ href: '#contact', label: 'Contact' }
+		{ href: '/#services', label: 'Services' },
+		{ href: '/#work', label: 'Work' },
+		{ href: '/#tech', label: 'Tech' },
+		{ href: '/#pricing', label: 'Pricing' },
+		{ href: '/#about', label: 'About' },
+		{ href: '/#contact', label: 'Contact' }
 	];
 
 	let isMobileMenuOpen = $state(false);
