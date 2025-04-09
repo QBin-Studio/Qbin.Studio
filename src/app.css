@@ -4,8 +4,8 @@
 	/* Color System */
 	--color-brand-primary: #e5e7eb;
 	--color-brand-secondary: #9ca3af;
-	--color-brand-accent-primary: #14b8a6;
-	--color-brand-accent-secondary: #06b6d4;
+	--color-brand-accent-primary: #00995e;
+	--color-brand-accent-secondary: #00995e50;
 	--color-brand-accent-hover: #0f766e;
 	--color-bg-primary: #111111;
 	--color-bg-secondary: #1d1d1d;
@@ -173,7 +173,7 @@ body {
 
 /* Button Styles */
 @utility btn-base {
-	@apply focus:ring-offset-bg-primary focus:ring-brand-accent-primary inline-flex items-center justify-center rounded-md border text-base font-medium shadow-sm transition-all duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-none;
+	@apply focus:ring-offset-bg-primary focus:ring-brand-accent-primary inline-flex items-center justify-center rounded-md text-base font-medium shadow-sm transition-all duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-none;
 }
 
 .btn-accent-gradient {

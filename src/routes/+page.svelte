@@ -8,6 +8,9 @@
 	import Work from '$lib/components/sections/Work.svelte';
 	import About from '$lib/components/sections/About.svelte';
 	import CTA from '$lib/components/sections/CTA.svelte';
+	import Review from '$lib/components/sections/Review.svelte';
+	import Pricing from '$lib/components/sections/Pricing.svelte';
+	import Team from '$lib/components/sections/Team.svelte';
 </script>
 
 <svelte:head>
@@ -33,5 +36,8 @@
 <Technologies />
 <OurApproach />
 <Work />
+<Review />
+<Pricing />
+<Team />
 <About />
 <CTA />
