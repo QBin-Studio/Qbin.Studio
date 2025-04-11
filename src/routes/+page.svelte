@@ -16,10 +16,10 @@
 <Hero />
 <Services />
 <Process />
-<Philosophy />
+<!-- <Philosophy /> -->
 <Technologies />
 <OurApproach />
-<Work />
+<!-- <Work /> -->
 <Review />
 <Pricing />
 <Team />

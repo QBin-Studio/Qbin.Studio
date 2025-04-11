@@ -11,7 +11,7 @@
 				>Case Studies</span
 			>
 			<h2 class="text-brand-primary mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
-				Selected Projects
+				Highlighted Projects
 			</h2>
 			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-xl">
 				Innovation delivered through code and pixels.

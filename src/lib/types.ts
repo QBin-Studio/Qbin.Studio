@@ -22,6 +22,7 @@ export interface TeamMember {
 		linkedIn?: string;
 		twitter?: string;
 		github?: string;
+		portfolio?: string;
 	};
 }
 

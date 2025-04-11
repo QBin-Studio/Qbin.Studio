@@ -1,6 +1,6 @@
 <main class="overflow-x-hidden">
 	<article class="py-16 md:py-24">
-		<div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 			<header class="mb-12 text-center md:mb-16">
 				<p class="text-brand-accent-primary mb-2 text-base font-medium">
 					Web Platform & API Development

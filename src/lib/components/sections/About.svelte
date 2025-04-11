@@ -9,7 +9,7 @@
 					Engineers of Impact
 				</h2>
 				<p class="text-brand-secondary mt-6 text-lg leading-relaxed">
-					Qbin Studio is a boutique digital agency composed of senior-level designers, developers,
+					Qbin Studio is a boutique digital agency composed of <span class="text-brand-accent-primary font-bold">senior engineers</span>, creative designers,
 					and strategists. We thrive on complex challenges and are dedicated to building products
 					that are not only functional but also elegant and impactful.
 				</p>

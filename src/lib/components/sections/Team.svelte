@@ -5,28 +5,28 @@
 	const team: TeamMember[] = [
 		{
 			id: 1,
-			name: 'John Doe',
-			title: 'Lead UX Architect',
-			imageUrl: null,
-			initials: 'JD',
-			socials: { linkedIn: '#', twitter: '#' }
+			name: 'M.H Akmal Raj',
+			title: 'Softaware Engineer',
+			imageUrl: 'https://avatars.githubusercontent.com/iamajraj',
+			initials: 'MR',
+			socials: { portfolio: 'https://hexraj.com' }
 		},
 		{
 			id: 2,
-			name: 'M. Akmal',
+			name: 'H. Nazmul Hassan',
 			title: 'Softaware Engineer',
-			imageUrl: null,
-			initials: 'MA',
-			socials: { linkedIn: '#', github: '#' }
+			imageUrl: 'https://avatars.githubusercontent.com/HNazmul-IV',
+			initials: 'HN',
+			socials: { }
 		},
 		{
 			id: 3,
-			name: 'H. Naz',
-			title: 'Softaware Engineer',
-			imageUrl: null,
-			initials: 'HN',
-			socials: { linkedIn: '#', twitter: '#' }
-		}
+			name: 'More Members',
+			title: '',
+			imageUrl: '',
+			initials: '3+',
+			socials: { }
+		},
 	];
 
 	function ensureInitials(members: TeamMember[]): TeamMember[] {

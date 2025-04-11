@@ -3,42 +3,42 @@
 		<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 			<div class="px-5 py-2">
 				<a
-					href="#services"
+					href="/#services"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>Services</a
 				>
 			</div>
 			<div class="px-5 py-2">
 				<a
-					href="#process"
+					href="/#process"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>Process</a
 				>
 			</div>
 			<div class="px-5 py-2">
 				<a
-					href="#work"
+					href="/#work"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>Work</a
 				>
 			</div>
 			<div class="px-5 py-2">
 				<a
-					href="#tech"
+					href="/#tech"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>Tech</a
 				>
 			</div>
 			<div class="px-5 py-2">
 				<a
-					href="#about"
+					href="/#about"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>About</a
 				>
 			</div>
 			<div class="px-5 py-2">
 				<a
-					href="#contact"
+					href="/#contact"
 					class="text-brand-secondary hover:text-brand-primary text-sm transition-colors duration-150"
 					>Contact</a
 				>

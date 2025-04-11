@@ -7,7 +7,7 @@
 			id: 'foundation',
 			name: 'Foundation',
 			description: 'Ideal for startups or specific project needs.',
-			price: 5000,
+			price: 499,
 			priceSuffix: '/project',
 			priceNote: 'Starting price',
 			features: [
@@ -24,13 +24,12 @@
 			id: 'growth',
 			name: 'Growth',
 			description: 'For businesses scaling their digital presence.',
-			price: 15000,
+			price: 1999,
 			priceSuffix: '/project',
 			priceNote: 'Starting price',
 			features: [
 				'Extended Feature Set',
 				'Priority Development Cycle',
-				'Dedicated Account Manager',
 				'Enhanced Support & Maintenance',
 				'CMS Integration',
 				'Basic SEO Setup'

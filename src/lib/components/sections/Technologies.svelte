@@ -38,9 +38,8 @@
 				<ul class="list-none space-y-1">
 					<li class="tech-list-item">Node.js</li>
 					<li class="tech-list-item">Python</li>
-					<li class="tech-list-item">Django/Flask</li>
 					<li class="tech-list-item">Go</li>
-					<li class="tech-list-item">PostgreSQL</li>
+					<li class="tech-list-item">SQL Databases</li>
 					<li class="tech-list-item">MongoDB</li>
 					<li class="tech-list-item">Redis</li>
 					<li class="tech-list-item">REST APIs</li>
@@ -56,8 +55,7 @@
 				<ul class="list-none space-y-1">
 					<li class="tech-list-item">React Native</li>
 					<li class="tech-list-item">Flutter</li>
-					<li class="tech-list-item">Swift (iOS)</li>
-					<li class="tech-list-item">Kotlin (Android)</li>
+					<li class="tech-list-item">Java (Android)</li>
 					<li class="tech-list-item">Expo</li>
 					<li class="tech-list-item">PWA</li>
 				</ul>
@@ -69,12 +67,11 @@
 					Cloud & DevOps
 				</h3>
 				<ul class="list-none space-y-1">
+					<li class="tech-list-item">Custom Linux Server</li>
 					<li class="tech-list-item">AWS</li>
 					<li class="tech-list-item">Google Cloud</li>
 					<li class="tech-list-item">Vercel</li>
 					<li class="tech-list-item">Docker</li>
-					<li class="tech-list-item">Kubernetes</li>
-					<li class="tech-list-item">Terraform</li>
 					<li class="tech-list-item">GitHub Actions</li>
 					<li class="tech-list-item">CI/CD</li>
 				</ul>
