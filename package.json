@@ -1,7 +1,10 @@
 {
 	"name": "qbin-studio",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.2.0",
+	"engines": {
+		"node": ">=22"
+	},
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -27,12 +30,5 @@
 		"tailwindcss": "^4.2.4",
 		"typescript": "^5.8.3",
 		"vite": "^8.0.10"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"rolldown",
-			"sharp",
-			"workerd"
-		]
 	}
 }
