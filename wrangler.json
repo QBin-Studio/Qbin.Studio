@@ -1,0 +1,7 @@
+{
+    "name": "qbin-studion",
+    "compatibility_date": "2026-04-30",
+    "compatibility_flags": [
+        "nodejs_als"
+    ]
+}
