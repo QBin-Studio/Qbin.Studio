@@ -13,15 +13,17 @@
 	import Team from '$lib/components/sections/Team.svelte';
 </script>
 
-<Hero />
-<Services />
-<Process />
-<!-- <Philosophy /> -->
-<Technologies />
-<OurApproach />
-<!-- <Work /> -->
-<Review />
-<Pricing />
-<Team />
-<About />
-<CTA />
+<div class="landing-flow">
+	<Hero />
+	<Services />
+	<Process />
+	<!-- <Philosophy /> -->
+	<Technologies />
+	<OurApproach />
+	<!-- <Work /> -->
+	<Review />
+	<Pricing />
+	<Team />
+	<About />
+	<CTA />
+</div>

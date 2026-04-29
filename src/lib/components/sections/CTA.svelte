@@ -1,9 +1,9 @@
-<section id="contact" class=" from-bg-secondary to-bg-primary bg-gradient-to-b py-24">
+<section id="contact" class=" from-bg-secondary to-bg-primary bg-linear-to-b py-24">
 	<div class="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
 		<h2 class="text-brand-primary text-3xl font-extrabold tracking-tight sm:text-4xl">
 			Ready to Elevate Your Digital Presence?
 		</h2>
-		<p class="text-brand-secondary mt-4 text-lg leading-relaxed">
+		<p class="text-brand-secondary mt-4 text-base leading-relaxed sm:text-lg">
 			Let's talk about your vision and how Qbin Studio can bring it to life. Schedule a consultation
 			today.
 		</p>

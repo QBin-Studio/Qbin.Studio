@@ -17,7 +17,7 @@
 			title: 'Softaware Engineer',
 			imageUrl: 'https://avatars.githubusercontent.com/HNazmul-IV',
 			initials: 'HN',
-			socials: { }
+			socials: {}
 		},
 		{
 			id: 3,
@@ -25,8 +25,8 @@
 			title: '',
 			imageUrl: '',
 			initials: '3+',
-			socials: { }
-		},
+			socials: {}
+		}
 	];
 
 	function ensureInitials(members: TeamMember[]): TeamMember[] {
@@ -58,7 +58,7 @@
 			<h2 class="text-brand-primary mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
 				The Architects of Your Success
 			</h2>
-			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-xl">
+			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-base sm:text-lg md:text-xl">
 				Meet the core team dedicated to bringing your vision to life.
 			</p>
 		</div>

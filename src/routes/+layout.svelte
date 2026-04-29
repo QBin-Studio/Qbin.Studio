@@ -9,9 +9,9 @@
 <svelte:head>
 	<link rel="icon" href="/logos/SVG/dark-square.svg" />
 </svelte:head>
-<div class="flex min-h-screen flex-col">
+<div class="site-shell flex min-h-screen flex-col">
 	<Header />
-	<main class="flex-grow">
+	<main class="grow">
 		{@render children()}
 	</main>
 	<Footer />

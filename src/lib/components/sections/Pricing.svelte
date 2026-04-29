@@ -70,7 +70,7 @@
 			<h2 class="text-brand-primary mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
 				Plans Tailored for Growth
 			</h2>
-			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-xl">
+			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-base sm:text-lg md:text-xl">
 				Choose the right level of engagement to meet your project goals and budget.
 			</p>
 		</div>

@@ -4,7 +4,7 @@
 			Driven by <span class="gradient-text-dynamic">Clarity</span> and
 			<span class="gradient-text-dynamic">Impact</span>.
 		</h2>
-		<p class="text-brand-secondary text-xl leading-relaxed md:text-2xl">
+		<p class="text-brand-secondary text-base leading-relaxed sm:text-lg md:text-2xl">
 			We don't just build websites; we engineer digital solutions that solve real problems, drive
 			growth, and leave a lasting impression. Our focus is on performance, usability, and aesthetic
 			precision.

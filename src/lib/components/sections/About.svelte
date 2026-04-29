@@ -8,12 +8,13 @@
 				<h2 class="text-brand-primary mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
 					Engineers of Impact
 				</h2>
-				<p class="text-brand-secondary mt-6 text-lg leading-relaxed">
-					Qbin Studio is a boutique digital agency composed of <span class="text-brand-accent-primary font-bold">senior engineers</span>, creative designers,
-					and strategists. We thrive on complex challenges and are dedicated to building products
-					that are not only functional but also elegant and impactful.
+				<p class="text-brand-secondary mt-6 text-base leading-relaxed sm:text-lg">
+					Qbin Studio is a boutique digital agency composed of <span
+						class="text-brand-accent-primary font-bold">senior engineers</span
+					>, creative designers, and strategists. We thrive on complex challenges and are dedicated
+					to building products that are not only functional but also elegant and impactful.
 				</p>
-				<p class="text-brand-secondary mt-4 text-lg leading-relaxed">
+				<p class="text-brand-secondary mt-4 text-base leading-relaxed sm:text-lg">
 					We believe in deep collaboration, meticulous execution, and building long-term
 					partnerships based on trust and results.
 				</p>

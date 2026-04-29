@@ -13,8 +13,8 @@
 			<h2 class="text-brand-primary mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
 				Highlighted Projects
 			</h2>
-			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-xl">
-				Innovation delivered through code and pixels.
+			<p class="text-brand-secondary mx-auto mt-4 max-w-2xl text-base sm:text-lg md:text-xl">
+				A selection of our recent projects, showcasing our commitment to quality and innovation.
 			</p>
 		</div>
 		<div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-12">

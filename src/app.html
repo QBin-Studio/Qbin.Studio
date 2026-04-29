@@ -5,9 +5,19 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
 			rel="stylesheet"
 		/>
+		<script>
+			(() => {
+				const stored = localStorage.getItem('theme');
+				const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				const theme =
+					stored === 'light' || stored === 'dark' ? stored : systemDark ? 'dark' : 'light';
+				document.documentElement.dataset.theme = theme;
+				document.documentElement.style.colorScheme = theme;
+			})();
+		</script>
 		<!-- for Cryptomus Verification -->
 		<meta name="cryptomus" content="fd4cb82b" />
 
@@ -41,7 +51,7 @@
 
 		<!-- Additional Tags -->
 		<meta name="author" content="qbin.studio team" />
-		<meta name="theme-color" content="#111827" />
+		<meta name="theme-color" content="#00995e" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="robots" content="index, follow" />
 
